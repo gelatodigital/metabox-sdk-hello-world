@@ -25,7 +25,7 @@ USER_PK=""
 SPONSOR_PK=""
 ```
 
-- `USER_PK` refers to private key of the Hello World application user.
+- `USER_PK` refers to private key of the Hello World application user. **We only use it in this tutorial to produce a dApp's user signature, while in reality the signature would have been obtained in a safe way!**
 
 - `SPONSOR_PK` refers to the EOA that will pay transaction fee. Can be same as `USER_PK`.
   Note: On testnets like `mumbai` Gelato will pay transaction fees.
