@@ -9,7 +9,13 @@ export const getAddressBookByNetwork = (chainId: number) => {
         HELLO_WORLD: "0xF78f9cd554d75EABd565e7866833b6642342D225",
         ETH: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
       };
-
+    case 137:
+      return {
+        GELATO: "0x7598e84B2E114AB62CAB288CE5f7d5f6bad35BbA",
+        GELATO_META_BOX: "0xbeC333EDE1A0687D2b9624F8C073a54c93ba9777",
+        HELLO_WORLD: "0x2caD01dE572e00af828e5FB02EBf9821f03eD8f0",
+        ETH: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      };
     case 80001:
       return {
         GELATO: "0x69623a227Cf0aFF37C3c60f5cd74bfed04377c79",

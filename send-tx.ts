@@ -22,6 +22,12 @@ async function main() {
 
   const { ETH, HELLO_WORLD } = getAddressBookByNetwork(chainId);
 
+  // retrieve whitelisted payment tokens
+  // sponsor can hold a balance with Gelato in any of those
+  const feeTokens = await MetaBoxSDK.getFeeTokens(chainId);
+
+  console.log(`Payment tokens accepted by Gelato: ${feeTokens}`);
+
   const userPK = process.env.USER_PK;
 
   let user: Wallet;

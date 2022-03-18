@@ -1076,20 +1076,20 @@
     "@ethersproject/properties" "^5.6.0"
     "@ethersproject/strings" "^5.6.0"
 
-"@gelatonetwork/core-sdk@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@gelatonetwork/core-sdk/-/core-sdk-0.1.4.tgz#e0c1d0e57e763fb10ead363915f1131251ca0fd4"
-  integrity sha512-3eX08IalHdHtufGFYTmYRrdoH8k9hSRUuWYrQgUEXOTKEpPCc5n7t7odFioImvbcvIc8XxS0d0MRx3k66ELRNw==
+"@gelatonetwork/core-sdk@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@gelatonetwork/core-sdk/-/core-sdk-0.3.0.tgz#dcf6e5974909c046bc72cb81ed430c40a32b55ab"
+  integrity sha512-uleOGxkjBqyaxXZmvx3JWZ9Xuuxg7MhCReV7y4AwxszaEW7JG7gnQQwA6l6D4g7MRDML+gRwEFXaJFxfO9XCZg==
   dependencies:
     axios "^0.24.0"
     ethers "^5.5.2"
 
-"@gelatonetwork/metabox-sdk@0.1.0":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@gelatonetwork/metabox-sdk/-/metabox-sdk-0.1.2.tgz#fa4ccbec9a3a9c4ce9207beaf98496bb2c1af2c5"
-  integrity sha512-uYRu+vI+oC1zxlzvlKeh2XU1E83hXsTR6q5Uo0aMITKhbS45pfioMOZbhMBbMbrUwqACJMjvEkvPcwe7qdnmEw==
+"@gelatonetwork/metabox-sdk@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@gelatonetwork/metabox-sdk/-/metabox-sdk-0.3.0.tgz#b1a62f164d72dff87b7a7e65a6d6e07fd8f85097"
+  integrity sha512-5E8qXuj0iTlOw5+SHj5+hLSgmebJ/gapBuDRg4NNhg6fGpD+NzVXmMYaz/H7IaIb+zC5j7SV9haI2O1+zRZ6/g==
   dependencies:
-    "@gelatonetwork/core-sdk" "^0.1.4"
+    "@gelatonetwork/core-sdk" "^0.3.0"
     axios "0.24.0"
     ethers "5.5.2"
 
