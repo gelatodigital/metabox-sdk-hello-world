@@ -1084,10 +1084,10 @@
     axios "^0.24.0"
     ethers "^5.5.2"
 
-"@gelatonetwork/metabox-sdk@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@gelatonetwork/metabox-sdk/-/metabox-sdk-0.3.0.tgz#b1a62f164d72dff87b7a7e65a6d6e07fd8f85097"
-  integrity sha512-5E8qXuj0iTlOw5+SHj5+hLSgmebJ/gapBuDRg4NNhg6fGpD+NzVXmMYaz/H7IaIb+zC5j7SV9haI2O1+zRZ6/g==
+"@gelatonetwork/metabox-sdk@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@gelatonetwork/metabox-sdk/-/metabox-sdk-0.4.0.tgz#3b2710ee989f6fc457ca2afcfacee90ec3ee49c7"
+  integrity sha512-ULLWyyggb6fEw110x56QbvOGcpo9XFUer8xzAmMwADh38OoCn5LHqViksgaHzKZ6Jka6OnLBH+nS+UkkhyBGYg==
   dependencies:
     "@gelatonetwork/core-sdk" "^0.3.0"
     axios "0.24.0"
